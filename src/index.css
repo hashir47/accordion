@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Path to your font files relative to your CSS file */
+@font-face {
+  font-family: 'WorkSans';
+  src: url('assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 1 999;
+  font-style: normal;
+}
+
+
+body{
+  background-color: "hsl(275, 100%, 97%)";
+}
