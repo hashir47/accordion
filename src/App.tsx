@@ -53,14 +53,16 @@ function App() {
       <img
         src={backgroundPatternDesktop}
         className="w-screen absolute top-0 z-0 hidden md:flex"
+        alt="background image"
       />
       <img
         src={backgroundPatternMobile}
         className="w-screen absolute top-0 z-0 flex md:hidden"
+        alt="background image"
       />
       <div className="flex flex-col justify-center rounded-xl p-5 md:p-10 bg-white  absolute z-10  shadow-lg w-[90%] md:w-[36%]  ">
         <div className="flex flex-row  items-center space-x-4">
-          <img src={iconStar} className=" w-7 lg:w-auto" />
+          <img src={iconStar} className="w-7 lg:w-auto" alt="star icon" />
           <h1 className="font-bold text-3xl md:text-5xl text-dark-purple">
             FAQs
           </h1>
@@ -78,11 +80,13 @@ function App() {
                   </h6>
                   <img
                     src={iconPlus}
+                    alt="plus icon"
                     className={currentOpenedFaq === faq.uid ? "hidden" : "flex"}
                     onClick={() => setCurrentOpenedFaq(faq.uid)}
                   />
                   <img
                     src={iconMinus}
+                    alt="minus icon"
                     onClick={() => setCurrentOpenedFaq("")}
                     className={currentOpenedFaq === faq.uid ? "flex" : "hidden"}
                   />
