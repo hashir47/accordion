@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import backgroundPatternDesktop from "./assets/images/background-pattern-desktop.svg";
 import backgroundPatternMobile from "./assets/images/background-pattern-mobile.svg";
 import iconMinus from "./assets/images/icon-minus.svg";
